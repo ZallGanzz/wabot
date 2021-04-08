@@ -14,12 +14,12 @@ let handler = async (m, { usedPrefix, command, text, args }) => {
 List option: welcome | delete
 
 Contoh:
-${usedPrefix}enable welcome
-${usedPrefix}disable welcome
+${usedPrefix}mode on njer
+${usedPrefix}mode off ler 
 `.trim())
   }
   m.reply(`
-*${type}* MANTAP TOD *${isEnable ? 'KNTL' : 'GUA'}GTL* BANGET ANJIM
+*${type}* MAKLEMAK *${isEnable ? LMK: ''}LMK*BAPAK LU
 `.trim())
 }
 handler.help = ['en', 'dis'].map(v => v + 'able <option>')
